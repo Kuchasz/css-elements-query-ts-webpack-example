@@ -1,0 +1,19 @@
+{
+  "name": "css-elements-query-ts-webpack-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-element-queries": "^1.0.1",
+    "ts-loader": "^3.3.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  }
+}
