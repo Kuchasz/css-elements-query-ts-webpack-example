@@ -339,14 +339,14 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;
 
 /***/ }),
 /* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_css_element_queries__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_css_element_queries___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_css_element_queries__);
 
-console.log({ResizeSensor: __WEBPACK_IMPORTED_MODULE_0_css_element_queries__["ResizeSensor"], ElementQueries: __WEBPACK_IMPORTED_MODULE_0_css_element_queries__["ElementQueries"]});
+Object.defineProperty(exports, "__esModule", { value: true });
+var css_element_queries_1 = __webpack_require__(2);
+console.log({ ResizeSensor: css_element_queries_1.ResizeSensor, ElementQueries: css_element_queries_1.ElementQueries });
+
 
 /***/ }),
 /* 2 */

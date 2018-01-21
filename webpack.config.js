@@ -3,7 +3,16 @@ module.exports = {
     output: {
         filename: 'bundle.js'
     },
+    module: {
+        loaders: [
+            { 
+                use :'ts-loader', 
+                test: /\.ts/,
+                exclude: /node_modules/
+            }
+        ]
+    },
     resolve: {
-        extensions: ['.js', '.ts']
+        extensions: ['.ts', '.js']
     }
 }
